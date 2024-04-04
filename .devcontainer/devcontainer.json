@@ -33,7 +33,7 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "pip3 install -r requirements.txt",
-	"postAttachCommand": "echo CODER_AGENT_TOKEN=${CODER_AGENT_TOKEN} && nohup sh -c '${localWorkspaceFolder}/.devcontainer/start-coder.sh &'",
+	"postStartCommand": "echo CODER_AGENT_TOKEN=${CODER_AGENT_TOKEN} && nohup sh -c '${localWorkspaceFolder}/.devcontainer/start-coder.sh &'",
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"

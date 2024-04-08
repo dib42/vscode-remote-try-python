@@ -330,3 +330,5 @@ ASALocalRun/
 .mfractor/
 
 *.DS_Store
+.devcontainer/coder.env
+.devcontainer/start-coder.sh
